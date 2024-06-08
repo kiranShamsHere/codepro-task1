@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | CodePro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="popup">
+        <div class="container">
+            <div class="one"></div>
+            <div class="two">
+                <div class="close-btn">
+                    <i class="fa-solid fa-times"></i>
+                </div>
+                <h1>Login</h1>
+                <div class="form-box">
+                    <form action="index.html">
+
+                        <div class="box">
+                            <div>
+                                <label for="uName">Account</label>
+                            </div>
+                            <i class="fa-regular fa-user"></i>
+                            <input class="inp" type="text" id="uName" placeholder="Email Or Username" required>
+                        </div>
+                        <div class="box">
+                            <div>
+                                <label for="pass">Password</label>
+                            </div>
+                            <i class="fa-solid fa-lock"></i>
+                            <input class="inp" type="text" id="pass" placeholder="Your Password" required>
+                        </div>
+                        <div class="box">
+                            <input type="submit" value="Login">
+                        </div>
+                        <div class="box">
+                            <p>
+                                <span>Don't have an account? </span>
+                                <a href="index.html">Register</a>
+                            </p>
+                        </div>
+                        <div class="box">
+                            <p class="para">
+                                <span>Or login with</span>
+                            </p>
+                        </div>
+                        <div class="socials">
+                            <div>
+                                <a href="">
+                                    <img src="google.png" alt="">
+                                    <span>Google</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="facebook.png" alt="">
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
