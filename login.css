@@ -53,7 +53,7 @@ button:hover {
     background-size: cover;
     background-position: center;
     width: 300px;
-    height: 580px;
+    height: 650px;
     border-radius: 5px 0 0 5px;
 }
 
@@ -138,6 +138,38 @@ input[type="submit"] {
     padding: 10px 0;
     background-color: rgb(8, 62, 83);
     color: white;
+    font-size: 17px;
+}
+
+.boxx .p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.boxx .p:hover {
+    text-decoration: underline;
+}
+
+.middle::before,
+.middle::after {
+    content: "";
+    height: 0.5px;
+    background: #000;
+    display: block;
+    
+}
+
+button {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.406);
 }
 
 .box {
